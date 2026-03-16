@@ -1,8 +1,6 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react' // <--- DEBE SER ASÍ
-
-// https://vitejs.dev/config/
+import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
-  base: './', // Mantén esto para solucionar lo de la pantalla blanca
+  base: '', 
 })
